@@ -10,8 +10,8 @@
     $logProvider.debugEnabled(true);
 
     //update your app's details
-    BackandProvider.setAppName('bkndkickstart'); //your app name
-    BackandProvider.setAnonymousToken('8b3d7045-7aba-46f9-a19b-daef3c1a4f59'); //Your Anonymous Token
+    BackandProvider.setAppName('maxlove'); //your app name
+    BackandProvider.setAnonymousToken('0ed9101f-9d5e-4e8d-8fd8-9849b9c009f7'); //Your Anonymous Token
     BackandProvider.setSignUpToken('95deaeeb-f0ad-4d22-854b-976bc2e7aa15'); //Your SignUp Token
 
     $httpProvider.interceptors.push('httpInterceptor');
